@@ -1,0 +1,68 @@
+#homepage {
+  
+  .hero-container {
+    background-image: url('../../assets/bg1.svg');
+    margin-top: 100px;
+    padding: 6rem;
+
+    h1 {
+      line-height: 1.4;
+      margin-bottom: 20px;
+      font-weight: bolder;
+    }
+
+    h4 {
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+
+    .hero-svg {
+      height: 200px;
+      width: 400px;
+    }
+
+    .btn-hero {
+      margin-top: 20px;
+      padding: 20px 50px;
+      border-radius: 6rem;
+    }
+  }
+
+  .how-it-work-container {
+    background-color: #f8f8f8;
+    padding: 4rem;
+    text-align: center;
+    
+    h2 {
+      font-weight: bolder;
+      margin-bottom: 3rem !important;
+    }
+
+    .card {
+      border-radius: .8rem;
+      border: 0px;
+
+      .card-title {
+        font-weight: bolder;
+      }
+
+      .card-body {
+
+        h5 {
+          color: #007BFF;
+        }
+
+        .card-img {
+          margin: 2rem 0rem;
+        }
+
+      }
+
+      .card-hr {
+        margin: 3rem;
+      }
+    }
+    
+  }
+
+}
