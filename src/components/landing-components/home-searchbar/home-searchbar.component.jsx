@@ -2,7 +2,6 @@ import React from 'react';
 
 import './home-searchbar.styles.scss';
 
-
 const homeSearchBar = () => (
   <div class="home-search-bar">
     
@@ -24,7 +23,5 @@ const homeSearchBar = () => (
     </div>
   </div>
 );
-
-
 
 export default homeSearchBar;

@@ -4,7 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import Header from "./components/header/header.component";
 import Homepage from "./pages/homepage/hompage.page";
 
-import "./App.css";
+import "./App.scss";
 
 class App extends React.Component {
   unSubscribeFromAuth = null;

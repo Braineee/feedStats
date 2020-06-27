@@ -2,7 +2,7 @@ import React from 'react';
 
 import './header.styles.scss';
 
-import { ReactComponent as Logo } from '../../assets/testlogo.svg';// Import the logo
+import { ReactComponent as Logo } from '../../../assets/testlogo.svg';// Import the logo
 
 const Header = () => (
   <nav className="navbar navbar-light bg-white fixed-top">
@@ -28,7 +28,5 @@ const Header = () => (
     </div>
   </nav>
 );
-
-
 
 export default Header;
