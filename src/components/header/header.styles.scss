@@ -1,0 +1,85 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+nav {  
+
+  .navbar {
+    padding: 1rem !important;
+  }
+
+  @include media-breakpoint-down(md) {
+    .large-screen {
+      display: none !important;
+    }
+
+    .container {
+      padding: 0px !important;
+    }
+
+    .logo {
+      padding: 20px 0px; 
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .small-screen {
+      display: none !important;
+    }
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .btn {
+    padding: 10px 30px;
+    border-radius: 6rem;
+    
+  }
+
+  .btn-white {
+    background-color: #fff;
+    color: #212529;
+    font-weight: bold;
+    padding: 15px;
+
+    &:hover{
+      color:#007bff;
+    }
+
+    &.focus,
+    &.active:focus,
+    &.focus,
+    &.focus:active,
+    &:active:focus,
+    &:focus {
+      outline: 0 !important;
+      outline-offset: 0  !important;
+      background-image: none  !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none  !important;
+    }
+  }
+
+  .sign-in-button {
+    margin-left: 15px;
+  }
+
+  .bugger-button {
+    font-size: 40px;
+  }
+
+  .logo {
+    vertical-align: middle;
+  }
+
+  .h3-py {
+    padding: 1rem 0rem !important;
+    margin-bottom: 0px !important;
+  }
+}
