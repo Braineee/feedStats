@@ -1,0 +1,22 @@
+@import "../../../assets/styles/custom-colors.scss";
+
+.get-started-container {
+  background-color: $base-color-darker;
+  padding: 4rem;
+  text-align: center;
+
+  h2 {
+    font-weight: bolder;
+    margin-bottom: 1rem !important;
+  }
+
+  h5 {
+    line-height: 2.4rem;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    padding: 15px 25px;
+    border-radius: 6rem;
+  }
+}
