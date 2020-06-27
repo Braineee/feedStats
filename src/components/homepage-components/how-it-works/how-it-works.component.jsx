@@ -1,10 +1,10 @@
 import React from 'react';
 
+import './how-it-works.styles.scss';
+
 import { ReactComponent as SignUp } from '../../../assets/sign-up.svg';// Import the logo
 import { ReactComponent as Register } from '../../../assets/register-business3.svg';// Import the logo
 import { ReactComponent as Review } from '../../../assets/review-link.svg';// Import the logo
-
-import './how-it-works.styles.scss';
 
 const HowItWorks = () => (
   <div className="how-it-work-container">
