@@ -22,7 +22,7 @@ const ReviewSearchBar = ({ children, searchButton }) => (
           </select>
         </div>
         <div className="col-4">
-          <CustomButton properties="btn btn-lg btn-primary btn-block search-btn">
+          <CustomButton properties="btn btn-lg btn-primary btn-block">
             { children }
           </CustomButton>
         </div>

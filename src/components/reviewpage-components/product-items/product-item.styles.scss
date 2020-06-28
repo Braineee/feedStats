@@ -1,0 +1,22 @@
+.product-item-card {
+  padding: 2rem;
+
+  .logo {
+    position: relative;
+    height: 100%;
+    width: 150px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    object-position: left;
+  }
+
+  .stars {
+    position: relative;
+    height: 100%;
+    width: 150px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    object-position: left;
+    padding-right: 5px;
+  }
+}

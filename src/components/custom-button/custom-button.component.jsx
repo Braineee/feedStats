@@ -6,7 +6,6 @@ const CustomButton = ({ children, properties, ...otherProps }) => (
   <button
     className={`
       ${properties}
-      custom-button
     `}
     { ...otherProps }
   >
