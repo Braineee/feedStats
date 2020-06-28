@@ -1,6 +1,9 @@
 @import "../../assets/styles/custom-colors.scss";
 
 #footer {
+  position: absolute;
+  margin-bottom: 0px;
+  width: 100%;
   background-color: $primary-color;
   color: #fff;
   font-weight: bold;

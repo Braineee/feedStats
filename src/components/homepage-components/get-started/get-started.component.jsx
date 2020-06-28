@@ -15,7 +15,7 @@ const GetStarted = () => (
       who knows? the next big thing might be within.
     </h5>
     <button className="btn btn-lg btn-primary btn-hero">
-      Let's get started
+      Let's get started &nbsp; &#8594;
     </button>
   </div>
 );

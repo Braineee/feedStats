@@ -3,7 +3,8 @@ import { Route, Switch } from "react-router-dom";
 
 import Header from "./components/header-components/header.component";
 import Footer from "./components/footer-components/footer.component";
-import Homepage from "./pages/homepage/hompage.page";
+import HomePage from "./pages/homepage/hompage.page";
+import ReviewPage from "./pages/review/review.page";
 
 import "./App.scss";
 
@@ -21,7 +22,8 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/" component={Homepage}></Route>
+          <Route exact path="/" component={HomePage}></Route>
+          <Route path="/review" component={ReviewPage}></Route>
         </Switch>
         <Footer />
       </div>

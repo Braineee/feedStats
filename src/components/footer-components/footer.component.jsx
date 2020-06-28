@@ -9,29 +9,29 @@ import { ReactComponent as Linkedin } from '../../assets/social-icons/linkedin.s
 
 const Footer = () => (
   <div id="footer">
-    <nav class="navbar navbar-expand-xl">
-      <div class="collapse navbar-collapse" id="navbarsExample06">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">FAQs <span class="sr-only">(current)</span></a>
+    <nav className="navbar navbar-expand-xl">
+      <div className="collapse navbar-collapse" id="navbarsExample06">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item active">
+            <a className="nav-link" href="/">FAQs <span className="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">Privacy policy</a>
+          <li className="nav-item">
+            <a className="nav-link" href="/">Privacy policy</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">Terms of use</a>
+          <li className="nav-item">
+            <a className="nav-link" href="/">Terms of use</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">support@feedbackstat.com</a>
+          <li className="nav-item">
+            <a className="nav-link" href="/">support@feedbackstat.com</a>
           </li>
-          <li class="nav-item form-inline">
-            <a class="nav-link" href="/"><Facebook className="social-icon" width="50" height="25" /></a>
-            <a class="nav-link" href="/"><Twitter className="social-icon" width="50" height="25" /></a>
-            <a class="nav-link" href="/"><Instagram className="social-icon" width="50" height="25" /></a>
-            <a class="nav-link" href="/"><Linkedin className="social-icon" width="50" height="25" /></a>
+          <li className="nav-item form-inline">
+            <a className="nav-link" href="/"><Facebook className="social-icon" width="50" height="25" /></a>
+            <a className="nav-link" href="/"><Twitter className="social-icon" width="50" height="25" /></a>
+            <a className="nav-link" href="/"><Instagram className="social-icon" width="50" height="25" /></a>
+            <a className="nav-link" href="/"><Linkedin className="social-icon" width="50" height="25" /></a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-md-0 px-3">
+        <form className="form-inline my-2 my-md-0 px-3">
           &copy; 2020 feedbackstat
         </form>
       </div>

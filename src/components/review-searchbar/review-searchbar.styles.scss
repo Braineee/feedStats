@@ -1,10 +1,12 @@
-.home-search-bar {
+@import "../../assets/styles/custom-colors.scss";
+
+.review-search-bar {
   text-align: center;
-  padding: 4rem;
+  padding: 6.6rem 4rem;
 
   .container {
     background-color: #f0f0f0;
-    padding: 30px;
+    padding: 20px 30px;
     border-radius: 10px;
   }
 

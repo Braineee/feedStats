@@ -12,29 +12,29 @@ const HowItWorks = () => (
     <div className="container">
       <div className="row">
         <div className="col-4">
-          <div class="card text-center shadow-sm">
-            <div class="card-body">
+          <div className="card text-center shadow-sm">
+            <div className="card-body">
               <SignUp className="card-img" width="200" height="150" />
-              <h5 class="card-title">Sign Up</h5>
-              <p class="card-text">Sign up to unlock a world of unlimited reviews from your customers and client.</p>
+              <h5 className="card-title">Sign Up</h5>
+              <p className="card-text">Sign up to unlock a world of unlimited reviews from your customers and client.</p>
             </div>
           </div>
         </div>
         <div className="col-4">
-          <div class="card text-center shadow-sm">
-            <div class="card-body">
+          <div className="card text-center shadow-sm">
+            <div className="card-body">
               <Register className="card-img" width="200" height="150" />
-              <h5 class="card-title">Register your product</h5>
-              <p class="card-text">Provide necessary details to aid your customers or client reviews on your product.</p>
+              <h5 className="card-title">Register your product</h5>
+              <p className="card-text">Provide necessary details to aid your customers or client reviews on your product.</p>
             </div>
           </div>
         </div>
         <div className="col-4">
-          <div class="card text-center shadow-sm">
-            <div class="card-body">
+          <div className="card text-center shadow-sm">
+            <div className="card-body">
               <Review className="card-img" width="200" height="150" />
-              <h5 class="card-title">Get a review link</h5>
-              <p class="card-text">Get a generated review link you can instantly share with your clients and customers.</p>
+              <h5 className="card-title">Get a review link</h5>
+              <p className="card-text">Get a generated review link you can instantly share with your clients and customers.</p>
             </div>
           </div>
         </div>

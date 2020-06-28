@@ -24,7 +24,7 @@ const Header = () => (
           <Logo />
         </div>
         <div className="col-6 text-right">
-          <span class="bugger-button">&#x02261;</span>
+          <span className="bugger-button">&#x02261;</span>
         </div>
       </div>
     </nav>

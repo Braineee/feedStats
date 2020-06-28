@@ -13,9 +13,9 @@ const Hero = () => (
             <h1>Manage and organise your reviews efficiently.</h1>
             <h5>
               let us help you manage and organise your feedback and reviews.
-                </h5>
+            </h5>
             <button className="btn btn-lg btn-primary btn-hero">
-              Let's get started
+              Let's get started &nbsp; &#8594;
             </button>
           </div>
           <div className="col-6">
@@ -27,6 +27,6 @@ const Hero = () => (
       </div>
     </div>
   </div>
-)
+);
 
 export default Hero;
