@@ -12,9 +12,9 @@ import { ReactComponent as Search } from '../../assets/svg-icon/search-icon-whit
 const ReviewPage = () => (
   <div id="review-page">
     <HeroHeader
-      title="Product Review"
+      title=""
       context="Find any product or service you wish to review below"
-      image={<Review width="350" />}
+      image={<Review width="250" />}
     />
     <ReviewSearchbar>
       <Search width="20" height="20" />&ensp;Search

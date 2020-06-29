@@ -10,11 +10,17 @@ const Header = () => (
       <div className="container large-screen">
         <div className="row">
           <div className="col-6">
-            <h3 className='h3-py'>feedbackStats</h3>
+            <a class="nav-link"  href="/">
+              <h3 className="h3-py">feedbackStats</h3>
+            </a>
           </div>
           <div className="col-6 text-right">
-            <a href="link" className="btn btn-white">Register a product</a>
-            <a href="link" className="btn btn-white">Drop a review</a>
+            <a href="link" className="btn btn-white">
+              Register a product
+            </a>
+            <a href="link" className="btn btn-white">
+              Drop a review
+            </a>
             <button className="btn btn-primary sign-in-button">Sign In</button>
           </div>
         </div>

@@ -9,7 +9,7 @@ const HeroHeader = ({ title, context, image }) => (
         <div className="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
           { image }
           <h1>{title}</h1>
-          <h5>{context}</h5>
+          <h4><strong>{context}</strong></h4>
         </div>
       </div>
     </div>
